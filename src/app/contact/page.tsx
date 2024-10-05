@@ -1,8 +1,8 @@
 'use client'
-import React ,{ FormEvent, useState } from 'react'
+import React ,{ FormEvent, useState } from 'react';
 import { Meteors } from "@/components/ui/meteors";
 
-function page() {
+function MusicSchoolContactUs() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -52,4 +52,4 @@ function page() {
   )
 }
 
-export default page
+export default MusicSchoolContactUs
